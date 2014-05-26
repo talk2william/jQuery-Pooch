@@ -1,0 +1,116 @@
+html,body {
+ margin:0;
+ padding:0;
+ height:100%;
+ background-image:url("images/wave.jpg");
+ background-size:100% 100%;
+ background-attachment:fixed;
+}
+
+@font-face {
+  font-family: 'Existence-Light';
+  font-style: normal;
+  font-weight: 400;
+  src:url(fonts/Existence-Light.otf);
+}
+
+@font-face {
+  font-family: 'oswald';
+  font-style: normal;
+  font-weight: 400;
+  src:url(fonts/oswald.woff);
+}
+
+span {
+ position:relative;
+ top:10%;
+ margin-left:60px;
+ padding:12px;
+ background-color:#161616;
+ border-bottom-style:solid;
+ border-color:rgb(255, 255, 255);
+ border-width:3px;
+ border-radius:2px;
+ box-shadow:0 0 10px #000;
+ -webkit-user-select: none; /* Chrome/Safari */        
+ -moz-user-select: none; /* Firefox */
+ -o-user-select: none; /*-opera-*/
+ -ms-user-select: none; /* IE10+ */
+ cursor:pointer;
+ z-index:5;
+}
+span b {
+ color:white;
+ font-family: 'oswald';
+ }
+a {
+  color:white;
+  text-decoration:none;
+}
+a.menu {
+ position:relative;
+ top:10%;
+ margin-left:10px;
+ color:white;
+ font-family: 'Existence-Light',sans-serif;
+ z-index:5;
+}
+
+#nav {
+ position:absolute;
+ top:43%;
+ width:100%;
+ height:80px;
+ background-color:#161616;
+ box-shadow:0 0 10px #000;
+ z-index:5;
+}
+
+#nav ul {
+ width:400px;
+ margin-left:20px;
+}
+#nav ul li {
+ padding:17px;
+ color:white;
+ list-style:none;
+ float:left;
+ text-align:center;
+ font-family:arial,sans-serif;
+ font-size:20px;
+ cursor:pointer;
+}
+#nav ul li:hover {
+ border-bottom-style:solid;
+ border-color:rgb(255, 255, 255);
+
+}
+
+#container {
+ top:140px;
+ margin:50px;
+ color:white;
+ font-family: 'oswald';
+ font-size:40px;
+ text-align:justify;
+ text-shadow:0 0 5px #000;
+ -webkit-user-select: none; /*-Chrome/Safari-*/        
+ -moz-user-select: none; /*-Firefox-*/
+ -o-user-select: none; /*-opera-*/
+ -ms-user-select: none; /*-IE10+-*/
+}
+
+p.copyrights {
+ position:absolute;
+ bottom:50px;
+ margin-left:50px;
+ color:white;
+ font-family: 'Existence-Light',sans-serif;
+ font-size:15px;
+ text-align:justify;
+ text-shadow:0 0 5px #000;
+ -webkit-user-select: none; /*-Chrome/Safari-*/        
+ -moz-user-select: none; /*-Firefox-*/
+ -o-user-select: none; /*-opera-*/
+ -ms-user-select: none; /*-IE10+-*/
+}
